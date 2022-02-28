@@ -49,9 +49,10 @@ section .bg-banner{
 }
 .container-fluid .container .banner-txt h1{
   font-weight: bolder;
-  font-size: 40px;
-  /* font-family: ;
-  src: url(); */
+  font-size: 45px;
+  font-family: myFirstFont;
+  font-style: italic;
+  
 }
 
 @font-face {
