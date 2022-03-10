@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>webSite</title>
+    <title>Jewelry</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+
+    <!-- nav part start -->
     <header>
       <div class="container">
         <div class="row">
@@ -25,13 +27,13 @@
               <ul>
                 <li><a href="index.html">Home</a></li>
                 <span>|</span>
-                <li><a href="./aboutUs.html">About us</a></li>
+                <li><a href="./Pages/aboutUs.html">About us</a></li>
                 <span>|</span>
 
                 <li><a href="">Shop</a></li>
                 <span>|</span>
 
-                <li><a href="./ContactUS.html">Contact Us</a></li>
+                <li><a href="./Pages/ContactUS.html">Contact Us</a></li>
               </ul>
             </div>
           </div>
@@ -43,7 +45,7 @@
                   <a href=""><img src="images/AIrSGv.png" /></a>
                 </li>
                 <li>
-                  <a href=""><img src="images/EbVDQA.png" /></a>
+                  <a href=""><img src="images/EbVDQA.png" /><sub id="cartList">0</sub></a>
                 </li>
               </ul>
             </div>
@@ -51,6 +53,9 @@
         </div>
       </div>
     </header>
+
+    <!-- nav part end -->
+    <!-- Banner part start -->
 
     <section>
       <div class="container-fluid bg-banner">
@@ -65,10 +70,14 @@
     </section>
 
 
-    <section id="Aboutus" >
+    <!-- Banner part end -->
+    <!-- about part start -->
+
+
+    <section class="Aboutus" >
       <div class="container">
           <div class="row">
-              <div class="col-md-6" style="padding-left: 20%;">
+              <div class="col-md-4" >
                   <h6 class="heading">About US</h6>
                   <h1 class="heading_Theme">Where Class Meets Glamour</h1>
                   <div>
@@ -95,8 +104,7 @@
 
                   </div>
               </div>
-              <div id="divimg" class=" col-md-6 col-xs-12">
-
+              <div class="divimg col-md-6 col-xs-12">
                   <img src="images/jewelleryabout.png" alt="">
                   <img id="img_div" src="images/jewelleryabout2.png" alt="">
               </div>
@@ -104,10 +112,10 @@
       </div>
   </section>
 
-  <section id="productSection">
-      <div class="container ">
+  <section class="productSection">
+      <div class="container">
           <div class="row">
-              <div id="productHead">
+              <div class="productHead">
                   <h6 class="heading">Product</h6>
                   <h1 class="heading_Theme">Our Product</h1>
                   <p class="text-center text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis cum
@@ -162,8 +170,8 @@
                   </div>
               </div>
           </div>
-          <div id="CategoryFooter">
-              <h4>Subscribe Our Newsletter</h4>
+          <div class="CategoryFooter">
+              <h4 >Subscribe Our Newsletter</h4>
               <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis cum quas
                   voluptate excepturi
                   provident tempore itaque officia eveniet sunt. Lorem ipsum dolor sit amet.</p>
