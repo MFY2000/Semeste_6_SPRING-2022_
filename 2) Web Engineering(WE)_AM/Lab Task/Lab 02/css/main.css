@@ -37,11 +37,16 @@ header {
   margin-bottom: 10px;
 }
 
+.container {
+  margin-top: 20px;
+}
+
 .navigation {
   text-align: center;
   align-items: center;
 }
 
+/* Nav style for pages */
 .navigation ul li,
 .icons ul li {
   list-style: none;
@@ -51,27 +56,67 @@ header {
 }
 
 .navigation ul li a {
-  font-size: 16px;
+  font-size: 13px;
+  font-weight: 550;
   color: #000;
   padding: 0 20px;
 }
 
-.navigation ul li a:hover,.footernav ul li a:hover{
-    text-decoration: none;
-    color: #caaa53
+.navigation ul li span {
+  font-size: 1vw;
 }
 
+
+.navigation ul li a:hover,
+.footernav ul li a:hover {
+  text-decoration: none;
+  color: #caaa53;
+}
 
 .navigation ul {
   padding: 0;
   margin-bottom: 0;
 }
 
-.logo a img {
-  width: 60%;
+
+/* Nav style for button */
+.icons{
+  text-align: center;
+  align-items: center;
 }
 
-section .bg-banner {
+.icons ul{
+  margin-top: 12px;
+}
+
+.icons ul li{
+  padding: 0 10px;
+}
+
+.icons ul li a sub{
+  background-color: #caaa53;
+  color: white;
+  border-radius: 100%;
+  padding: 1px 2.5px;
+  
+  font-size: 8px;
+  position: relative; 
+  top: -10px;
+  left: -1px;
+}
+
+
+/* Nav style for logo */
+
+
+.logo a img {
+  width: 55%;
+
+}
+
+/* banner for style */
+
+section .bg-banner, .bg-banner_About {
   height: 550px;
   background-image: url("../images/03.png");
   background-repeat: no-repeat;
@@ -79,13 +124,8 @@ section .bg-banner {
   background-attachment: fixed;
 }
 
-section .bg-banner_About{
-    height: 550px;
-    background-image: url("../images/aboutUs.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-   
+section .bg-banner_About {
+  background-image: url("../images/aboutUs.webp");
 }
 
 .container-fluid .container .banner-txt {
@@ -115,7 +155,6 @@ section .bg-banner_About{
 
 .container-fluid .container .btn-private {
   background-color: #b0a171;
-
   font-size: 12px;
   color: white;
   text-align: center;
@@ -125,88 +164,54 @@ section .bg-banner_About{
   margin: -20px 40% 0 40%;
 }
 
-#Aboutus {
-  text-align: left;
-}
+/* About Section for style */
 
-html {
-  scroll-behavior: smooth;
-}
-
-.nav3 {
-  display: flex;
-  padding: 2px;
-}
-
-.nav3 div {
-  padding: 5px;
-}
-
-#nav2 ul {
-  list-style: none;
-  display: flex;
-  padding: 7px;
-  text-align: center;
-  align-items: center;
-  font-size: 5px;
-}
-
-#nav2 ul li a {
-  font-size: 12px;
-  text-decoration: none;
-  color: black;
-  padding: 10px 20px;
-  font-weight: bold;
-  font-family: "Poppins";
-}
-
-
-
-.h1 {
-  font-weight: bold;
-  font-size: 76px;
-  font-family: "Cooper BT";
-}
-
-#divCover {
-  width: 600px;
-  border: 5px solid white;
-  background-color: rgba(0, 0, 0, 0.4);
-  margin-bottom: 20px;
-}
-
-.btn {
-  background-color: #b0a171;
-  margin-bottom: -25px;
-  border: none;
-  padding: 8px;
-  border-radius: 0;
+.Aboutus .container .row .col-md-4 { 
+  margin-left: 15%;
 }
 
 .heading {
   margin-top: 20px;
   font-weight: 900;
-  font-size: 16px;
+  font-size: 17px;
   color: #b0a171;
   padding-bottom: 2px;
   margin-bottom: -15px;
-  font-weight: bold;
-  font-family: "Cooper BT";
-  
+  font-family: "Cooper BT blod";
 }
 
-
-.container {
-  margin-top: 20px;
-}
 
 .heading_Theme {
-  font-weight: 5px;
   font-size: 42px;
-  letter-spacing: 2px;
-  font-weight: bolder;
+  letter-spacing: 3px;
   font-family: "Cooper BT";
-  
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.divimg img {
+  height: 80vh;
+  width: 100vh;
+}
+
+.text-justify {
+  font-size: small;
+  color: #aaaaaa;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.divimg {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.divimg #img_div {
+  height: 420px;
+  margin-top: 39px;
+  margin-left: -25%;
 }
 
 .btnbody {
@@ -218,43 +223,22 @@ html {
   margin-bottom: 15px;
 }
 
-#divimg img {
-  height: 500px;
-  width: 500px;
-}
 
-.text-justify{
-    font-size: small;
-}
+/* product Section for style */
 
-.text-center{
-    text-align: center;
-}
-
-#divimg {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-#divimg #img_div {
-  height: 420px;
-  margin-top: 39px;
-  margin-left: -155px;
-}
-
-#productSection {
+.productSection {
   margin-top: 20px;
   background-color: #ebebea;
 }
 
-#productHead {
+.productHead {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#productHead p {
+.productHead p {
   width: 50%;
   font-size: 12px;
   font-family: "Poppins";
@@ -290,7 +274,7 @@ html {
   margin-bottom: 10px;
 }
 
-#CategoryFooter {
+.CategoryFooter {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -306,7 +290,7 @@ html {
   text-align: center;
 }
 
-#CategoryFooter p {
+.CategoryFooter p {
   width: 50%;
   font-size: 12px;
   font-family: "Poppins";
@@ -360,22 +344,22 @@ footer #line {
   height: 2px;
 }
 
-.icon{
-   border-radius: 100%;
-   background-color: #666666;
-   padding: 10px;
-   font-size: 10px;
-   color: white;
-   text-align: center;
-   align-items: center;
-   margin: 10px;
+.icon {
+  border-radius: 100%;
+  background-color: #666666;
+  padding: 10px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
 }
-.iconRow{
-    display: block;
+.iconRow {
+  display: block;
 }
 
-.active{
-    background-color: rgb(0, 102, 255);
+.active {
+  background-color: rgb(0, 102, 255);
 }
 .footernav {
   margin-top: 20px;
@@ -399,8 +383,4 @@ footer #line {
   text-transform: uppercase;
 }
 
-
-
 /* Contact Us */
-
-
