@@ -1,0 +1,17 @@
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\bin\Debug\TestClass05_TDD_.dll
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\bin\Debug\TestClass05_TDD_.pdb
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\bin\Debug\Class05_TDD_ATM.dll
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\bin\Debug\Class05_TDD_ATM.pdb
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\obj\Debug\TestClass05_TDD_.csproj.AssemblyReference.cache
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\obj\Debug\TestClass05_TDD_.csproj.CoreCompileInputs.cache
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\obj\Debug\TestClass05_TDD_.csproj.CopyComplete
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\obj\Debug\TestClass05_TDD_.dll
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\TestClass05_TDD_\obj\Debug\TestClass05_TDD_.pdb

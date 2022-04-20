@@ -1,0 +1,6 @@
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\Class05_TDD_ATM\bin\Debug\Class05_TDD_ATM.dll
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\Class05_TDD_ATM\bin\Debug\Class05_TDD_ATM.pdb
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\Class05_TDD_ATM\obj\Debug\Class05_TDD_ATM.csproj.AssemblyReference.cache
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\Class05_TDD_ATM\obj\Debug\Class05_TDD_ATM.csproj.CoreCompileInputs.cache
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\Class05_TDD_ATM\obj\Debug\Class05_TDD_ATM.dll
+C:\Users\DarkJoker\Desktop\Semeste_6_FALL-2021_\6) Test Driven Development(TDD)_BM\Class Task\Class 05\Class05_TDD_ATM\Class05_TDD_ATM\obj\Debug\Class05_TDD_ATM.pdb

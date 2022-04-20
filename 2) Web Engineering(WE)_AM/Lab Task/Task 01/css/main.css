@@ -1,0 +1,632 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("//db.onlinewebfonts.com/c/eccb7a74720fc377b60d6b2110530fd9?family=DejaVu+Sans");
+@import url("//db.onlinewebfonts.com/c/28f2bcb7049a1e0f3598e59fc74840b5?family=Cooper+BT");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+@font-face {
+  font-family: "DejaVu Sans";
+  src: url("//db.onlinewebfonts.com/t/eccb7a74720fc377b60d6b2110530fd9.eot");
+  src: url("//db.onlinewebfonts.com/t/eccb7a74720fc377b60d6b2110530fd9.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/eccb7a74720fc377b60d6b2110530fd9.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/eccb7a74720fc377b60d6b2110530fd9.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/eccb7a74720fc377b60d6b2110530fd9.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/eccb7a74720fc377b60d6b2110530fd9.svg#DejaVu Sans")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Cooper BT ";
+  src: url("//db.onlinewebfonts.com/t/28f2bcb7049a1e0f3598e59fc74840b5.eot");
+  src: url("//db.onlinewebfonts.com/t/28f2bcb7049a1e0f3598e59fc74840b5.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/28f2bcb7049a1e0f3598e59fc74840b5.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/28f2bcb7049a1e0f3598e59fc74840b5.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/28f2bcb7049a1e0f3598e59fc74840b5.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/28f2bcb7049a1e0f3598e59fc74840b5.svg#Cooper BT")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Cooper BT bold";
+  src: url("../fonts/cooper_lt_bt/CooperBoldBT.ttf");
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.navigation {
+  text-align: center;
+  align-items: center;
+}
+
+/* Nav style for pages */
+.navigation ul li,
+.icons ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 1.5%;
+  padding-top: 10px;
+}
+
+.navigation ul li a {
+  font-size: 13px;
+  font-weight: 550;
+  color: #000;
+  padding: 0 20px;
+}
+
+.navigation ul li span {
+  font-size: 1vw;
+}
+
+.navigation ul li a:hover,
+.footernav ul li a:hover {
+  text-decoration: none;
+  color: #caaa53;
+}
+
+.navigation ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+/* Nav style for button */
+.icons {
+  text-align: center;
+  align-items: center;
+}
+
+.icons ul {
+  margin-top: 12px;
+}
+
+.icons ul li {
+  padding: 0 10px;
+}
+
+.icons ul li a sub {
+  background-color: #caaa53;
+  color: white;
+  border-radius: 100%;
+  padding: 1px 2.5px;
+
+  font-size: 8px;
+  position: relative;
+  top: -10px;
+  left: -1px;
+}
+
+/* Nav style for logo */
+
+.logo a img {
+  width: 55%;
+}
+
+/* banner for style */
+
+section .bg-banner,
+.bg-banner_About {
+  height: 550px;
+  background-image: url("../images/03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section .bg-banner_About {
+  background-image: url("../images/aboutUs.webp");
+}
+
+.container-fluid .container .banner-txt {
+  color: white;
+  padding: 2%;
+  width: 50%;
+  text-align: center;
+  border: 5px solid white;
+  margin: 15% 27% 0 27%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.container-fluid .container .banner-txt h1 {
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: "Cooper BT bold";
+}
+
+.container-fluid .container .banner-txt p {
+  font-weight: bolder;
+  font-size: 10px;
+}
+
+.container-fluid .bg-banner {
+  align-items: center;
+}
+
+.container-fluid .container .btn-private {
+    background-color: #b0a171;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    width: 10%;
+    position: absolute;
+    margin: -20px 40% 0 40%;
+}
+
+/* About Section for style */
+
+.Aboutus .container .row .col-md-4 {
+  margin-left: 15%;
+}
+
+.heading {
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 17px;
+  color: #b0a171;
+  padding-bottom: 2px;
+  margin-bottom: -15px;
+  font-family: "Cooper BT blod";
+}
+
+.heading_Theme {
+  font-size: 42px;
+  letter-spacing: 3px;
+  font-family: "Cooper BT bold";
+  font-weight: bolder;
+}
+
+.divimg img {
+  height: 80vh;
+  width: 100vh;
+}
+
+.text-justify {
+  font-size: small;
+  color: #aaaaaa;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.divimg {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.divimg #img_div {
+  height: 420px;
+  margin-top: 39px;
+  margin-left: -25%;
+}
+
+.btnbody {
+  color: white;
+  background-color: #b0a171;
+  border-radius: 0;
+  border: none;
+  padding: 2%;
+  margin: 5% 0;
+}
+
+/* product Section for style */
+
+.productSection {
+  margin-top: 20px;
+  background-color: #ebebea;
+}
+
+.productHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productHead p {
+  width: 50%;
+  font-size: 12px;
+  font-family: "Poppins";
+}
+
+#productBody {
+  margin-top: 10px;
+  text-align: center;
+  color: #b0a171;
+  font-size: 16px;
+}
+
+#productBtn {
+  border: 2px solid #b0a171;
+  padding: 9px 26px;
+  background-color: #ebebea;
+  margin-bottom: 20px;
+}
+
+#CategorySection {
+  margin-top: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+#CategoryBody {
+  margin-top: 10px;
+}
+
+#CategoryBody div img {
+  width: 369px;
+  height: 537px;
+  margin-bottom: 10px;
+}
+
+.CategoryFooter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.CategoryFooter h4 {
+  font-size: 52px;
+  color: #180d0a;
+  font-weight: 300;
+  font-family: "Cooper BT bold";
+  text-align: center;
+}
+
+.CategoryFooter p {
+  width: 50%;
+  font-size: 12px;
+  font-family: "Poppins";
+}
+
+#CategoryEmail {
+  margin-top: 5px;
+}
+
+#CategoryEmail input {
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: #f7f5f1;
+  width: 50% !important;
+}
+
+#CategoryEmail button,
+.form-group .contactbtn {
+  margin: -6px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  padding: 9px 35px;
+  display: block;
+
+  background-color: #b0a171;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(250, 247, 237);
+}
+
+footer p {
+  padding-top: 50px;
+  font-size: 16px;
+  letter-spacing: -1px;
+  line-height: 6px;
+  color: #666666;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+footer #line {
+  margin-top: 50px;
+  width: 80%;
+  background-color: black;
+  height: 2px;
+}
+
+.icon {
+  border-radius: 100%;
+  background-color: #666666;
+  padding: 10px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+}
+.iconRow {
+  display: block;
+}
+
+.active {
+  background-color: rgb(0, 102, 255);
+}
+.footernav {
+  margin-top: 20px;
+}
+
+.footernav ul {
+  list-style: none;
+  display: flex;
+  padding: 7px;
+  text-align: center;
+  align-items: center;
+  font-size: 5px;
+}
+
+.footernav ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+
+/* Contact Us */
+
+#CategoryEmail label {
+  display: block;
+}
+
+.contact .form-group input,
+.messageArea {
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin: 10px 0px;
+  background-color: #f7f5f1;
+}
+
+.coverInput {
+  width: 100% !important;
+}
+
+.messageArea {
+  color: #8f8f8f;
+  width: 100% !important;
+  height: 20vh !important;
+}
+
+/* Shop page */
+
+.productSection .container {
+  margin-top: 0%;
+}
+
+.tabs-Menu {
+  /* margin-left: auto;
+    margin-right: auto; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50px;
+}
+.tabs-Menu a {
+  color: black;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #ebebeaa6;
+  border-radius: 50px;
+}
+.tabs-Menu {
+  margin-right: 0;
+}
+.tabs-Menu a:hover,
+.tabs-Menu a:after,
+.tabs-Menu .active {
+  background-color: #caaa53;
+  color: white;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #caaa53;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.center-align {
+  display: inline;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* Product Details */
+
+.bg-banner_details {
+  height: 250px;
+  background-image: url("../images/03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.banner-Heading {
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: "Cooper BT bold";
+  color: white;
+  margin-top: 50%;
+}
+
+/* product Details */
+
+.inline-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-col {
+  margin-left: 8%;
+}
+
+.heading_Theme-2 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-family: "Cooper BT bold";
+  font-weight: bolder;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.fa-star {
+  color: #ffbb00;
+  font-size: xx-large;
+  margin-top: 10%s;
+}
+
+.empty {
+  color: rgb(134, 134, 134);
+}
+
+.paragraph-details {
+  margin: 5% 0%;
+}
+
+.paragraph-details p {
+  font-size: large;
+}
+
+.btn-counter {
+  padding: 0 1%;
+  font-size: x-large;
+  border-radius: 100%;
+  border: 1px solid #000;
+  text-align: center;
+  margin: 1%;
+  text-align: center;
+}
+
+.btn-counter:hover {
+  border-radius: 100%;
+  background-color: #caaa53;
+  border: none;
+  color: white;
+}
+
+.count {
+  border: 1px solid #000;
+  padding: 2% 3%;
+  margin: 0 1%;
+}
+
+.more-details div{
+  display: flex;
+  flex-direction: row;
+}
+
+.more-details div i{
+  margin-right: 1%;
+}
+
+
+.more-details div p{
+  padding-top: .5%;
+}
+
+.text-moreDtails{
+  margin: 0 1%;
+}
+
+.title-image img{
+  height: 10% !important;
+}
+
+.extra-Image{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  bottom: -20px;
+  right: 65px;
+}
+
+.extra-Image img{
+  width: 100px;
+  height: 50px;
+  border: 5px solid white;
+}
+
+.smaller{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+/*  */
+
+.row-single-cart{
+  align-items: center;
+  height: 10vh;
+}
+
+.td-row-details{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.td-row-details img{
+  width: 15%;
+  height: 15vh;
+}
+
+.td-row-details span{
+  margin-left: 2%;
+  text-align: center;
+  align-items: center;
+}
+
+.row-single-cart td{
+  height: 15vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+

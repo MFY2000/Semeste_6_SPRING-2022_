@@ -1,0 +1,321 @@
+:fonts {
+  --FontSize: 14;
+}
+
+:root {
+  --PrimaryColor: #caaa53;
+  --SecondaryColor: #ffffff;
+  --fontColor: #414141;
+}
+
+.navigation-clean-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+}
+
+.navbar-toggler-icon {
+  color: var(--PrimaryColor) !important;
+}
+
+.navbar-toggler {
+  border: 2px solid #b0a171 !important;
+  position: relative;
+  top: 6px;
+}
+
+.icon-bar {
+  background-color: #b0a171 !important;
+}
+
+.navigation-clean-button .navbar-brand {
+  font-weight: bold;
+  color: inherit;
+}
+
+.navigation-clean-button .navbar-brand:hover {
+  color: #1485ee;
+}
+
+.navigation-clean-button .navbar-brand img {
+  height: 100%;
+  display: inline-block;
+  margin-right: 10px;
+  width: auto;
+}
+
+.navigation-clean-button .navbar-toggle {
+  border-color: #ddd;
+}
+
+.navigation-clean-button .navbar-toggle:hover,
+.navigation-clean-button .navbar-toggle:focus {
+  background: none;
+}
+
+.navigation-clean-button .navbar-toggle {
+  background-color: #888;
+}
+
+.navigation-clean-button .navbar-collapse,
+.navigation-clean-button .navbar-form {
+  border-top-color: #ddd;
+}
+
+.navigation-clean-button .navbar-nav > .active > a,
+.navigation-clean-button .navbar-nav > .open > a {
+  background: none;
+  box-shadow: none;
+}
+
+.navigation-clean-button.navbar-default .navbar-nav > .active > a,
+.navigation-clean-button.navbar-default .navbar-nav > .active > a:focus,
+.navigation-clean-button.navbar-default .navbar-nav > .active > a:hover {
+  color: #e04c40;
+  border-top: 1px solid #e04c40;
+  box-shadow: none;
+  transition: background-color 0.25s;
+  background: none;
+  pointer-events: none;
+}
+
+.navigation-clean-button.navbar .navbar-nav > li > a {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.navigation-clean-button.navbar-default .navbar-nav > li > a {
+  color: #dfe8ee;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Work Sans";
+}
+
+.navigation-clean-button.navbar-default .navbar-nav > li > a:focus,
+.navigation-clean-button.navbar-default .navbar-nav > li > a:hover {
+  color: #e04c40 !important;
+  border-top: solid 1px #e04c40;
+  background-color: transparent;
+  /* transition: background 0.2s ease, padding 0.8s linear; */
+  transition: background-color 0.25s;
+}
+
+.navigation-clean-button .navbar-nav > li > .dropdown-menu {
+  margin-top: -5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #222222;
+  border-radius: 2px;
+}
+
+.navigation-clean-button .dropdown-menu > li > a:focus,
+.navigation-clean-button .dropdown-menu > li > a {
+  line-height: 2;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Roboto";
+  color: #df4c40;
+}
+
+.navigation-clean-button .dropdown-menu > li > a:focus,
+.navigation-clean-button .dropdown-menu > li > a:hover {
+  background: #df4c40;
+  color: inherit;
+  transition: background-color 0.25s;
+  transition-timing-function: ease;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.navigation-clean-button .actions {
+  margin-top: 7px;
+  margin-bottom: 0;
+}
+
+.navigation-clean-button .actions .login {
+  margin-right: 7px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navigation-clean-button .action-button,
+.navigation-clean-button .action-button:active {
+  background: transparent;
+  border-radius: 0;
+  color: #e04c40;
+  box-shadow: none;
+  border: 1px solid #e04c40;
+  text-shadow: none;
+  padding: 10px 22px;
+  transition: background-color 0.25s;
+}
+
+.navigation-clean-button .action-button:hover {
+  background: #e04c40;
+  color: #fff;
+  font-weight: 400;
+  border: 1px solid #df4c40;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+a.navbar-brand.navbar-link {
+  font-weight: 400;
+}
+
+p.navbar-text.navbar-right.actions {
+  font-family: "Roboto Slab";
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+a.navbar-link.login:hover {
+  color: #e04c40;
+}
+
+.btn.focus,
+.btn:focus,
+.btn:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #1485ee;
+  border: none;
+}
+
+.btn-default {
+  color: #ffffff;
+  background-color: #df4c40;
+  border: none;
+}
+
+.btn {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+#navcol-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  border-left: 2px solid black;
+}
+
+.nav-action {
+  border: none;
+}
+
+.nav-item .nav-link {
+  font-size: 13px;
+  font-weight: 550;
+  color: var(--fontColor);
+  padding: 0 20px;
+}
+
+.nav-item a:hover {
+  color: var(--PrimaryColor) !important;
+}
+
+.counter {
+  color: var(--SecondaryColor);
+  background-color: var(--PrimaryColor);
+  padding: 1.5% 4%;
+  border-radius: 100%;
+  font-size: smaller;
+}
+
+.nav-icons {
+  width: 20%;
+}
+
+.nav-icon-img {
+  padding: 0 5%;
+  height: 5%;
+}
+
+.banner-title h4 {
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: "Cooper BT bold";
+}
+
+.banner-title {
+  color: white;
+  padding: 2%;
+  width: 50%;
+  height: 35%;
+  text-align: center;
+  border: 5px solid white;
+  margin: 15% 0 0% 27%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.banner-title p {
+  font-weight: bolder;
+  font-size: 10px;
+}
+
+.btn-theme {
+  background-color: var(--PrimaryColor);
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+.heading_Theme {
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 17px;
+  color: #b0a171;
+  padding-bottom: 2px;
+  margin-bottom: -15px;
+  font-family: "Cooper BT blod";
+}
+
+.heading {
+  font-size: 42px;
+  letter-spacing: 3px;
+  font-family: "Cooper BT bold";
+  font-weight: bolder;
+  color: var(--fontColor);
+}
+
+#Aboutus {
+  margin: 2% 5%;
+}
+
+.text-Aboutus {
+  padding-left: 9%;
+}
+
+.banner-btn {
+  position: absolute;
+  margin: 20px 0 0 40%;
+  width: 12%;
+}
+
+.btn-about {
+  width: 17%;
+}
+
+.product-shop {
+  text-align: center;
+}
+
+.aboutus-details {
+  font-size: small;
+  color: #aaaaaa;
+}
+
+.product-details {
+  padding: 0 26%;
+}
