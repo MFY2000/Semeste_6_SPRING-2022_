@@ -6,24 +6,6 @@ using System.Threading.Tasks;
 
 namespace Class05_TDD_ATM
 {
-    public class Distance
-    {
-        public double getDistance(double speed, double time)
-        {
-            double result = speed * time;
-            return result;
-        }
-
-        public double getDistance_XY(double[] x_axis, double[] y_axis)
-        {
-            
-
-            double result = Math.Sqrt(Math.Pow(x_axis[0] - x_axis[1], 2) + Math.Pow(y_axis[0] - y_axis[1], 2));
-            return result < 0 ? 0: Math.Round(result,2);
-        }
-    }
-
-
 
 
     public class ATM
