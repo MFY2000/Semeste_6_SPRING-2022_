@@ -1,0 +1,6 @@
+C:\Users\sp19-bsse-0073\source\repos\ATMTest\ATMClass\bin\Debug\ATMClass.dll
+C:\Users\sp19-bsse-0073\source\repos\ATMTest\ATMClass\bin\Debug\ATMClass.pdb
+C:\Users\sp19-bsse-0073\source\repos\ATMTest\ATMClass\obj\Debug\ATMClass.csprojAssemblyReference.cache
+C:\Users\sp19-bsse-0073\source\repos\ATMTest\ATMClass\obj\Debug\ATMClass.csproj.CoreCompileInputs.cache
+C:\Users\sp19-bsse-0073\source\repos\ATMTest\ATMClass\obj\Debug\ATMClass.dll
+C:\Users\sp19-bsse-0073\source\repos\ATMTest\ATMClass\obj\Debug\ATMClass.pdb
