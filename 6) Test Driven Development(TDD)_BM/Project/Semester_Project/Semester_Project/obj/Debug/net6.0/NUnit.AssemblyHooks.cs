@@ -9,13 +9,13 @@ using global::System.Runtime.CompilerServices;
 
 [GeneratedCode("SpecFlow", "3.9.40")]
 [SetUpFixture]
-public class Semester_Project_NUnitAssemblyHooks
+public class Calculator_Testing_NUnitAssemblyHooks
 {
     [OneTimeSetUp]
     [MethodImpl(MethodImplOptions.NoInlining)]
     public void AssemblyInitialize()
     {
-        var currentAssembly = typeof(Semester_Project_NUnitAssemblyHooks).Assembly;
+        var currentAssembly = typeof(Calculator_Testing_NUnitAssemblyHooks).Assembly;
 
         TestRunnerManager.OnTestRunStart(currentAssembly);
     }
@@ -24,7 +24,7 @@ public class Semester_Project_NUnitAssemblyHooks
     [MethodImpl(MethodImplOptions.NoInlining)]
     public void AssemblyCleanup()
     {
-        var currentAssembly = typeof(Semester_Project_NUnitAssemblyHooks).Assembly;
+        var currentAssembly = typeof(Calculator_Testing_NUnitAssemblyHooks).Assembly;
 
         TestRunnerManager.OnTestRunEnd(currentAssembly);
     }

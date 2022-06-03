@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Semester_Project.Features
+namespace Calculator_Testing.Features
 {
     using TechTalk.SpecFlow;
     using System;
