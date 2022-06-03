@@ -3412,15 +3412,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
-      },
-      "Calculator/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Calculator.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Calculator.dll": {}
-        }
       }
     }
   },
@@ -10639,17 +10630,11 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
-    },
-    "Calculator/1.0.0": {
-      "type": "project",
-      "path": "../../../../../../Downloads/Calculator-C-Sharp-NUnit-master/Calculator-C-Sharp-NUnit-master/Calculator/Calculator.csproj",
-      "msbuildProject": "../../../../../../Downloads/Calculator-C-Sharp-NUnit-master/Calculator-C-Sharp-NUnit-master/Calculator/Calculator.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Appium.WebDriver >= 4.3.1",
-      "Calculator >= 1.0.0",
       "ExtentReports >= 4.1.0",
       "FluentAssertions >= 6.2.0",
       "Microsoft.NET.Test.Sdk >= 17.0.0",
@@ -10668,9 +10653,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DarkJoker\\Desktop\\Semeste_6_FALL-2021_\\6) Test Driven Development(TDD)_BM\\Project\\Semester_Project\\Semester_Project\\Semester_Project.csproj",
-      "projectName": "Semester_Project",
-      "projectPath": "C:\\Users\\DarkJoker\\Desktop\\Semeste_6_FALL-2021_\\6) Test Driven Development(TDD)_BM\\Project\\Semester_Project\\Semester_Project\\Semester_Project.csproj",
+      "projectUniqueName": "C:\\Users\\DarkJoker\\Desktop\\Semeste_6_FALL-2021_\\6) Test Driven Development(TDD)_BM\\Project\\Semester_Project\\Semester_Project\\Calculator_Testing.csproj",
+      "projectName": "Calculator_Testing",
+      "projectPath": "C:\\Users\\DarkJoker\\Desktop\\Semeste_6_FALL-2021_\\6) Test Driven Development(TDD)_BM\\Project\\Semester_Project\\Semester_Project\\Calculator_Testing.csproj",
       "packagesPath": "C:\\Users\\DarkJoker\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DarkJoker\\Desktop\\Semeste_6_FALL-2021_\\6) Test Driven Development(TDD)_BM\\Project\\Semester_Project\\Semester_Project\\obj\\",
       "projectStyle": "PackageReference",
@@ -10688,11 +10673,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\DarkJoker\\Downloads\\Calculator-C-Sharp-NUnit-master\\Calculator-C-Sharp-NUnit-master\\Calculator\\Calculator.csproj": {
-              "projectPath": "C:\\Users\\DarkJoker\\Downloads\\Calculator-C-Sharp-NUnit-master\\Calculator-C-Sharp-NUnit-master\\Calculator\\Calculator.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
