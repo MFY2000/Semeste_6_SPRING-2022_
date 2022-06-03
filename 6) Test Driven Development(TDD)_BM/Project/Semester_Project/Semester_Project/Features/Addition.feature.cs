@@ -74,14 +74,14 @@ namespace Semester_Project.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Verified the output of the process of addition on following input 1000 times.")]
+        [NUnit.Framework.DescriptionAttribute("Verified the output of the process of addition on following.")]
         [NUnit.Framework.CategoryAttribute("tag1")]
-        public virtual void VerifiedTheOutputOfTheProcessOfAdditionOnFollowingInput1000Times_()
+        public virtual void VerifiedTheOutputOfTheProcessOfAdditionOnFollowing_()
         {
             string[] tagsOfScenario = new string[] {
                     "tag1"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verified the output of the process of addition on following input 1000 times.", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verified the output of the process of addition on following.", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 6
 this.ScenarioInitialize(scenarioInfo);
 #line hidden

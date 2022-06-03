@@ -3,7 +3,7 @@
 A short summary of the feature
 
 @tag1
-Scenario Outline: Verified the output of the process of addition on following input 1000 times.
+Scenario Outline: Verified the output of the process of addition on following.
 	Given Open the windowApp
 	When Fill all data in given model to test it
 	| S.NO | Input_1 | Input_2 | Expected_output | Error_Message                                                    |
