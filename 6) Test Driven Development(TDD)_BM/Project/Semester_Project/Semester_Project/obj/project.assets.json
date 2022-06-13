@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Appium.WebDriver/4.3.1": {
+      "Appium.WebDriver/4.2.1": {
         "type": "package",
         "dependencies": {
           "Castle.Core": "4.3.1",
@@ -3416,21 +3416,19 @@
     }
   },
   "libraries": {
-    "Appium.WebDriver/4.3.1": {
-      "sha512": "g8ZDjcdcmbC0vJqwnhYlFWSYMg57aGSY/XvoIj2bOixWliT7sHP/2sIB5Gi35bT9SoM/FGjUnr0e7NlSRSq06g==",
+    "Appium.WebDriver/4.2.1": {
+      "sha512": "eiKCSSLo+5o9iHYtVcZAaYQKm1pBc3gBDqevmvCrlnqy/vxFLO1dRdpy7FM+xGCYGl3x7r1kj/pYuXhKR9Vi9Q==",
       "type": "package",
-      "path": "appium.webdriver/4.3.1",
+      "path": "appium.webdriver/4.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
         "appium-icon.png",
-        "appium.webdriver.4.3.1.nupkg.sha512",
+        "appium.webdriver.4.2.1.nupkg.sha512",
         "appium.webdriver.nuspec",
         "lib/net45/Appium.Net.dll",
-        "lib/net45/Appium.Net.xml",
-        "lib/netstandard2.0/Appium.Net.dll",
-        "lib/netstandard2.0/Appium.Net.xml"
+        "lib/netstandard2.0/Appium.Net.dll"
       ]
     },
     "BoDi/1.5.0": {
@@ -10634,7 +10632,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Appium.WebDriver >= 4.3.1",
+      "Appium.WebDriver >= 4.2.1",
       "ExtentReports >= 4.1.0",
       "FluentAssertions >= 6.2.0",
       "Microsoft.NET.Test.Sdk >= 17.0.0",
@@ -10688,7 +10686,7 @@
         "dependencies": {
           "Appium.WebDriver": {
             "target": "Package",
-            "version": "[4.3.1, )"
+            "version": "[4.2.1, )"
           },
           "ExtentReports": {
             "target": "Package",
